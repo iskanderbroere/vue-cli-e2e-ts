@@ -1,0 +1,39 @@
+{
+  "name": "vue-cli-e2e-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.10",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.4",
+    "@vue/cli-plugin-pwa": "^3.0.4",
+    "@vue/cli-plugin-typescript": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "babel-loader": "^8.0.4",
+    "typescript": "^3.0.0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
